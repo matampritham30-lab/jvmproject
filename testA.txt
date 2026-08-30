@@ -1,0 +1,71 @@
+
+read
+istore 0
+read
+istore 1
+read
+istore 2
+iload 0
+istore 3
+iload 0
+istore 4
+iload 1
+iload 3
+isub
+iflt 22
+iload 1
+iload 3
+isub
+ifeq 24
+iload 1
+iload 3
+isub
+ifgt 24
+iload 1
+istore 3
+iload 1
+iload 4
+isub
+ifgt 36
+iload 1
+iload 4
+isub
+ifeq 38
+iload 1
+iload 4
+isub
+iflt 38
+iload 1
+istore 4
+iload 2
+iload 3
+isub
+iflt 50
+iload 2
+iload 3
+isub
+ifeq 52
+iload 2
+iload 3
+isub
+ifgt 52
+iload 2
+istore 3
+iload 2
+iload 4
+isub
+ifgt 64
+iload 2
+iload 4
+isub
+ifeq 66
+iload 2
+iload 4
+isub
+iflt 66
+iload 2
+istore 4
+iload 3
+print
+iload 4
+print

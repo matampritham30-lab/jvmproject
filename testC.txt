@@ -1,0 +1,32 @@
+read
+istore 0
+read
+istore 1
+read
+istore 2
+read
+istore 3
+read
+istore 4
+read
+istore 5
+read
+istore 6
+read
+istore 7
+iload 0
+iload 4
+iadd
+print
+iload 1
+iload 5
+iadd
+print
+iload 2
+iload 6
+iadd
+print
+iload 3
+iload 7
+iadd
+print

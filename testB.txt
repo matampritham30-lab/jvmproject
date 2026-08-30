@@ -1,0 +1,180 @@
+read
+istore 0
+read
+istore 1
+read
+istore 2
+read
+istore 3
+read
+istore 4
+iload 1
+iload 2
+isub
+ifgt 22
+iload 1
+iload 2
+isub
+ifeq 28
+iload 1
+iload 2
+isub
+iflt 28
+iload 1
+istore 10
+iload 2
+istore 1
+iload 10
+istore 2
+iload 2
+iload 3
+isub
+ifgt 40
+iload 2
+iload 3
+isub
+ifeq 46
+iload 2
+iload 3
+isub
+iflt 46
+iload 2
+istore 10
+iload 3
+istore 2
+iload 10
+istore 3
+iload 3
+iload 4
+isub
+ifgt 58
+iload 3
+iload 4
+isub
+ifeq 64
+iload 3
+iload 4
+isub
+iflt 64
+iload 3
+istore 10
+iload 4
+istore 3
+iload 10
+istore 4
+iload 1
+iload 2
+isub
+ifgt 76
+iload 1
+iload 2
+isub
+ifeq 82
+iload 1
+iload 2
+isub
+iflt 82
+iload 1
+istore 10
+iload 2
+istore 1
+iload 10
+istore 2
+iload 2
+iload 3
+isub
+ifgt 94
+iload 2
+iload 3
+isub
+ifeq 100
+iload 2
+iload 3
+isub
+iflt 100
+iload 2
+istore 10
+iload 3
+istore 2
+iload 10
+istore 3
+iload 3
+iload 4
+isub
+ifgt 112
+iload 3
+iload 4
+isub
+ifeq 118
+iload 3
+iload 4
+isub
+iflt 118
+iload 3
+istore 10
+iload 4
+istore 3
+iload 10
+istore 4
+iload 1
+iload 2
+isub
+ifgt 130
+iload 1
+iload 2
+isub
+ifeq 136
+iload 1
+iload 2
+isub
+iflt 136
+iload 1
+istore 10
+iload 2
+istore 1
+iload 10
+istore 2
+iload 2
+iload 3
+isub
+ifgt 148
+iload 2
+iload 3
+isub
+ifeq 154
+iload 2
+iload 3
+isub
+iflt 154
+iload 2
+istore 10
+iload 3
+istore 2
+iload 10
+istore 3
+iload 3
+iload 4
+isub
+ifgt 166
+iload 3
+iload 4
+isub
+ifeq 172
+iload 3
+iload 4
+isub
+iflt 172
+iload 3
+istore 10
+iload 4
+istore 3
+iload 10
+istore 4
+iload 1
+print
+iload 2
+print
+iload 3
+print
+iload 4
+print
